@@ -1,17 +1,3 @@
---Name : Postgre DDL Script CCDA
---Owner : Sayu Softtech
---Date cre : 08102022
---Modified date : 
-
---TABLES
---COUNTRY
---CITY
---ADDRESS
---CC_Debit
---CC_Paid
---Tx_Type
---CARD_TYPE
---CARD
 
 
 -- -----------------------------------------------------
