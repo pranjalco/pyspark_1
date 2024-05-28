@@ -7,16 +7,6 @@ Go to
 $cd /usr/lib/phoenix/bin
 /usr/lib/phoenix/bin/sqlline.py localhost
 
-Use below cmd to open phoenix terminal
-/usr/lib/phoenix/bin/sqlline.py localhost
-
-#show tables
-!tables
-
-----------------------------
-
- By using below cmd we can create hbase table into which we are going to import the data from RDBMS to 
- Hbase using spark
 
 
 CREATE TABLE COUNTRY_HB (cn_id VARCHAR(10) PRIMARY KEY,cn_name VARCHAR(45));
@@ -29,7 +19,6 @@ CREATE TABLE CARD_HB ( c_number INTEGER PRIMARY KEY,full_name VARCHAR(45),mob IN
 
 CREATE TABLE CC_DEBIT_HB (c_number INTEGER,tx_id VARCHAR(45) PRIMARY KEY,tx_date TIMESTAMP,amt_spend INTEGER,category VARCHAR(45),d_status VARCHAR(10));
 
-CREATE TABLE CC_PAID_HB (c_number INTEGER,tx_id VARCHAR(45) PRIMARY KEY,tx_date TIMESTAMP,amt_paid INTEGER,c_status VARCHAR(45),tx_type_id VARCHAR(10));
 
 commit;
 
